@@ -1,7 +1,9 @@
 /**
  * 
  */
-package com.small.design.pattern;
+package com.small.design.pattern.creatiional.singleton;
+
+import java.util.Date;
 
 /**
  * PatternBox: "Singleton" implementation.
@@ -11,12 +13,21 @@ package com.small.design.pattern;
  * </ul>
  * 
  * @author Dirk Ehms, <a href="http://www.patternbox.com">www.patternbox.com</a>
- * @author zhanghaihai@gsegment.com
+ * @author lff
  */
 public class Singleton {
 
 	/** unique instance */
 	private static Singleton sInstance = null;
+	private Date singleTonTime = null;
+
+	public Date getSingleTonTime() {
+		return singleTonTime;
+	}
+
+	public void setSingleTonTime(Date singleTonTime) {
+		this.singleTonTime = singleTonTime;
+	}
 
 	/** 
 	 * Private constuctor
@@ -43,6 +54,7 @@ public class Singleton {
 	 * this method by another one which you really need.
 	 */
 	public void doSomething() {
+		System.out.println("singleTonTime: " + singleTonTime);
 	}
 
 }

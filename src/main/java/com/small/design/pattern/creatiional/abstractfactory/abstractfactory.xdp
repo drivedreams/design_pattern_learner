@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="abstractfactory">
+ <role name="AbstractFactory">
+  <member name="AbstractFactory" package="com.small.design.pattern.creatiional.abstractfactory" project="design_pattern_learner"/>
+ </role>
+ <role name="ConcreteFactory">
+  <member name="ConcreteFactory" package="com.small.design.pattern.creatiional.abstractfactory" project="design_pattern_learner"/>
+ </role>
+ <role name="AbstractProduct">
+  <member name="AbstractProduct" package="com.small.design.pattern.creatiional.abstractfactory" project="design_pattern_learner"/>
+ </role>
+ <role name="ConcreteProduct">
+  <member name="ConcreteProduct" package="com.small.design.pattern.creatiional.abstractfactory" project="design_pattern_learner"/>
+ </role>
+ <role name="Client">
+  <member name="Client" package="com.small.design.pattern.creatiional.abstractfactory" project="design_pattern_learner"/>
+ </role>
+</pattern>

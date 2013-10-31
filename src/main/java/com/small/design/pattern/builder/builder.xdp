@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="builder">
+ <role name="Builder">
+  <member name="Builder" package="com.small.design.pattern.builder" project="design_pattern_learner"/>
+ </role>
+ <role name="ConcreteBuilder">
+  <member name="ConcreteBuilder" package="com.small.design.pattern.builder" project="design_pattern_learner"/>
+ </role>
+ <role name="Director">
+  <member name="Director" package="com.small.design.pattern.builder" project="design_pattern_learner"/>
+ </role>
+ <role name="Product">
+  <member name="Product" package="com.small.design.pattern.builder" project="design_pattern_learner"/>
+ </role>
+ <role name="Client">
+  <member name="Client" package="com.small.design.pattern.builder" project="design_pattern_learner"/>
+ </role>
+</pattern>
